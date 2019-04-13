@@ -27,7 +27,7 @@ const Contact = () => {
                         <div className="12u">
                             <div className="spacer50"></div>
                             <ul className="actions tac">
-                                <li><a href="URL/about/contact.asp" className="button big">Contact Form</a></li>
+                                <li><a href="/contact" className="button big">Contact Form</a></li>
                             </ul>
                             <div className="spacer30"></div>
                         </div>

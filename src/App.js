@@ -7,7 +7,7 @@ import Photos from '../src/screens/photos';
 class App extends Component {
   render() {
     return (
-      <Home />
+      <About />
     );
   }
 }

@@ -4,13 +4,28 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import About from '../src/screens/about';
+import WhyBecomeMember from '../src/screens/whyBecomeMember';
+import Testimonials from '../src/screens/testimonials';
+import Contact from '../src/screens/contact';
 import Notfound from '../src/components/notfound';
+import ForgetPassword from '../src/screens/forgotPassword';
+import Login from '../src/screens/login';
+import Hunting from '../src/screens/hunting';
+import Photos from '../src/screens/photos';
+
 
 const routing = (
     <Router>
       <div>
         <Route exact path="/" component={App} />
-        <Route path="/about" component={About} />
+        <Route excet strict path="/about" component={About} />
+        <Route excet strict path="/whyBecomeMember"  component={WhyBecomeMember} />
+        <Route excet strict path="/testimonials"  component={Testimonials} />
+        <Route excet strict path="/contact"  component={Contact} />
+        <Route excet strict path="/forgetPassword"  component={ForgetPassword} />
+        <Route excet strict path="/login"  component={Login} />
+        <Route excet strict path="/hunting"  component={Hunting} />
+        <Route excet strict path="/photos"  component={Photos} />
         <Route component={Notfound} />
       </div>
     </Router>

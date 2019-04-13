@@ -149,7 +149,7 @@ a great service and I am thrilled to be a part of KWTH.
             <div className="12u">
                 <div className="spacer50"></div>
                 <ul className="actions tac">
-                    <li><a href="URL/about/testimonials.asp" className="button big">View All</a></li>
+                    <li><a href="/testimonials" className="button big">View All</a></li>
                 </ul>
                 <div className="spacer30"></div>
             </div>

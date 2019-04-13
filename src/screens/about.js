@@ -12,7 +12,7 @@ import GeneralInfo from '../components/generalInfo';
 import ProStaff from '../components/proStaff.js';
 import Testimonials from '../components/testimonials';
 import LegalStuff from '../components/legalStuff';
-import ClosingStatement from '../components/closingStatement';
+import ClosingStatementAbout from '../components/closingStatementAbout';
 
 class About extends Component {
     render() {
@@ -28,7 +28,7 @@ class About extends Component {
                     <ProStaff />
                     <Testimonials/>
                     <LegalStuff/>
-                    <ClosingStatement/> 
+                    <ClosingStatementAbout/> 
                     <Footer />
                 </div>
         );

@@ -18,13 +18,13 @@ const LegalStuff = () => {
                 <div class="row uniform tac">
 
                     <div class="4u 12u(xsmall)">
-                        <a href="URL/about/downloads/KWTH-Terms-And-Conditions.pdf" target="_blank" class="button palette01">Terms &amp; Conditions</a>
+                        <a href="https://www.knowwheretohunt.com/about/downloads/KWTH-Terms-And-Conditions.pdf" target="_blank" class="button palette01">Terms &amp; Conditions</a>
                     </div>
                     <div class="4u 12u(xsmall)">
-                        <a href="URL/about/downloads/KWTH-Privacy-Policy.pdf" target="_blank" class="button palette02">Pricacy Policy</a>
+                        <a href="https://www.knowwheretohunt.com/about/downloads/KWTH-Privacy-Policy.pdf" target="_blank" class="button palette02">Pricacy Policy</a>
                     </div>
                     <div class="4u 12u$(xsmall)">
-                        <a href="URL/about/downloads/KWTH-Terms-Of-Use.pdf" target="_blank" class="button palette03">Terms of Use</a>
+                        <a href="https://www.knowwheretohunt.com/about/downloads/KWTH-Terms-Of-Use.pdf" target="_blank" class="button palette03">Terms of Use</a>
                     </div>
 
                     <div class="spacer50"></div>

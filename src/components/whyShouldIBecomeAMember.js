@@ -17,7 +17,7 @@ const WhyShouldIBecomeAMember = () => {
             <br /><br />
             <ul className="actions">
                 <li>
-                    <a href="URL/about/#memberships" className="button palette02">Membership Prices</a>
+                    <a href="/about/#memberships" className="button palette02">Membership Prices</a>
                 </li>
             </ul>
         </div>

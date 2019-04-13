@@ -8,7 +8,7 @@ const Faqs = () => {
         <section className="wrapper style3">
             <div className="inner tac">
                 <div id="faqs" className="toTopContainer">
-                <img src={require('../assets/up.png')} className="toTop"/>
+                <img src={require('../assets/up.png')} className="toTop" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth' })}/>
                 </div>
                 <header>
                     <h2 className="tac"><u>FAQs</u></h2>

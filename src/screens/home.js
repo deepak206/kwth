@@ -10,6 +10,7 @@ import ClosingStatement from '../components/closingStatement';
 import Footer from '../components/footer';
 
 class Home extends Component {
+    
     render() {
         return(
             <div id="page-wrapper">

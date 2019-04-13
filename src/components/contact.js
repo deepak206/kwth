@@ -5,31 +5,31 @@ import '../style/css.css';
 
 const Contact = () => {
     return (
-        <section class="wrapper">
-            <div class="inner">
-                <div id="contact" class="toTopContainer">
-                <img src={require('../assets/up.png')} class="toTop"/>
+        <section className="wrapper">
+            <div className="inner">
+                <div id="contact" className="toTopContainer">
+                <img src={require('../assets/up.png')} className="toTop" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth' })}/>
                 </div>
                 <header>
-                    <h2 class="tac"><u>Contact Us</u></h2>
-                    <div class="spacer20"></div>
+                    <h2 className="tac"><u>Contact Us</u></h2>
+                    <div className="spacer20"></div>
                 </header>
 
-                    <div class="row uniform tac">
+                    <div className="row uniform tac">
 
-                        <div class="12u">
+                        <div className="12u">
                             <h3>Rick Gardner</h3>
                             <div>(360) 630-7904</div>
                             <div>rick@kwth.com</div>
-                            <div class="spacer30"></div>
+                            <div className="spacer30"></div>
                         </div>
 
-                        <div class="12u">
-                            <div class="spacer50"></div>
-                            <ul class="actions tac">
-                                <li><a href="https://www.knowwheretohunt.com/about/contact.asp" class="button big">Contact Form</a></li>
+                        <div className="12u">
+                            <div className="spacer50"></div>
+                            <ul className="actions tac">
+                                <li><a href="URL/about/contact.asp" className="button big">Contact Form</a></li>
                             </ul>
-                            <div class="spacer30"></div>
+                            <div className="spacer30"></div>
                         </div>
 
                     </div>

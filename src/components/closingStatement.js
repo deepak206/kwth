@@ -13,10 +13,10 @@ const ClosingStatement = () => {
 			</header>
 			<ul className="actions vertical">
 				<li>
-                    <a href="URL/about/#memberships" className="button fit palette02">Sign Up Now</a>
+                    <a href="/about/#memberships" className="button fit palette02">Sign Up Now</a>
                 </li>
 				<li>
-                    <a href="URL/about/#general" className="button fit">Learn More</a>
+                    <a href="/about/#general" className="button fit">Learn More</a>
                 </li>
 			</ul>
 		</div>

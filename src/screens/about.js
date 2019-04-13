@@ -8,18 +8,28 @@ import Properties from '../components/properties';
 import Memberships from '../components/memberships';
 import Faqs from '../components/faqs';
 import Contact from '../components/contact';
+import GeneralInfo from '../components/generalInfo';
+import ProStaff from '../components/proStaff.js';
+import Testimonials from '../components/testimonials';
+import LegalStuff from '../components/legalStuff';
+import ClosingStatement from '../components/closingStatement';
 
 class About extends Component {
     render() {
         return(
-                <div id="page-wrapper">
+                <div id="page-wrapper" ref="main">
                     <Header/>
                     <ButtonMenu />
                     <Properties/>
                     <Memberships/>
-                    <Footer />
                     <Contact />
                     <Faqs/>
+                    <GeneralInfo/>
+                    <ProStaff />
+                    <Testimonials/>
+                    <LegalStuff/>
+                    <ClosingStatement/> 
+                    <Footer />
                 </div>
         );
     }

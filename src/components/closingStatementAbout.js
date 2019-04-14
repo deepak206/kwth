@@ -1,6 +1,11 @@
 import React from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
+import history from '../history';
+
+const getPhoto = (route) => {
+    history.push(route);
+}
 
 const ClosingStatementAbout = () => {
     return (
@@ -16,7 +21,7 @@ const ClosingStatementAbout = () => {
                     <a href="/about/#memberships" className="button fit palette02">Sign Up Now</a>
                 </li>
 				<li>
-                    <a href="/whyshouldibecomeamember" className="button fit">Learn More</a>
+                    <a href="" onClick={() => getPhoto('/why-become-member')} className="button fit">Learn More</a>
                 </li>
 			</ul>
 		</div>

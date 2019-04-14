@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
-import Header from '../../components/header';
+import Header from '../components/header';
 import ClosingStatement from '../components/closingStatement';
 import Footer from '../components/footer';
 
@@ -9,7 +9,7 @@ class Contact extends Component {
     
     render() {
         return(
-            <div id="page-wrapper">
+            <Fragment>
                 <Header/>
                 <Fragment>
                 <section id="banner2"></section>
@@ -57,7 +57,7 @@ class Contact extends Component {
                 </Fragment>
                 <ClosingStatement />
                 <Footer />
-            </div>
+            </Fragment>
         );
     }
 }

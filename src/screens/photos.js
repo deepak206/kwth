@@ -9,12 +9,12 @@ import Gallery from '../components/gallery';
 class Photos extends Component {
     render() {
         return(
-                <div id="page-wrapper">
+                <Fragment>
                     <Header/>
                     <Gallery/>
                     <ClosingStatement/> 
                     <Footer />
-                </div>
+                </Fragment>
         );
     }
 }

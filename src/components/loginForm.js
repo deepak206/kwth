@@ -1,6 +1,11 @@
 import React, {Fragment} from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
+import history from '../history';
+
+const getRoute = (route) => {
+    history.push(route);
+}
 
 const LoginForm = () => {
     return (
@@ -13,7 +18,7 @@ const LoginForm = () => {
 
             </header>
 
-            <form id="formLogin" name="formLogin" method="post" action="URL/login/index-validate.asp">
+            <form id="formLogin" name="formLogin" method="post" action="/login/index-validate.asp">
                 <div className="row uniform">
 
                     <div className="4u"></div>
@@ -23,7 +28,7 @@ const LoginForm = () => {
 
                         <h4>Password</h4>
                         <input type="password" name="password" id="password" value="" placeholder="Password" />
-                        <a href="URL/login/forgot-password.asp" className="tiny fr">Forgot Password</a>
+                        <a href="" onClick={() => getRoute('/forgot-password')} className="tiny fr">Forgot Password</a>
                         <br/>
 
 
@@ -36,7 +41,7 @@ const LoginForm = () => {
                                 <input type="hidden" id="d" name="d" value=""/>
                                 <input type="submit" id="submit" name="submit" value="Login" className="button palette01"/>
                                 <div className="spacer30"></div>
-                                <a href="URL/about/#memberships" className="button mini">Sign Up</a>
+                                <a href="/about/#memberships" className="button mini">Sign Up</a>
                             </li>
                         </ul>
                     </div>

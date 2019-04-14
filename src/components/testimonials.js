@@ -2,6 +2,11 @@ import React from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
 import '../style/css.css';
+import history from '../history';
+
+const getRoute = (route) => {
+    history.push(route);
+}
 
 const Testimonials = () => {
     return (
@@ -149,7 +154,7 @@ a great service and I am thrilled to be a part of KWTH.
             <div className="12u">
                 <div className="spacer50"></div>
                 <ul className="actions tac">
-                    <li><a href="/testimonials" className="button big">View All</a></li>
+                    <li><a href="" onClick={() => getRoute('/testimonials')} className="button big">View All</a></li>
                 </ul>
                 <div className="spacer30"></div>
             </div>

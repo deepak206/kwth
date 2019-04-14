@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
+import history from '../history';
 
                 
 class Header extends Component {
@@ -9,18 +10,20 @@ class Header extends Component {
     };
 
     toggleMenu = (event) => {
-               
         event.preventDefault();
         
         this.setState({visible: !this.state.visible})
     }
 
+    getRoute = (route) => {
+        history.push(route);
+    }
     
 
     render() {
     return (
         <header id="header">
-            <h1><a href="URL">
+            <h1><a href="" onClick={() => this.getRoute('/')}>
                 <img src={require('../assets/logo-sml.png')} className="logo" />
                 </a>
             </h1>
@@ -53,10 +56,10 @@ class Header extends Component {
 		</nav>
         {this.state.visible && <div id="menu">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/hunting/">Hunting</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/login/">Log In</a></li>
+                <li><a href="" onClick={() => this.getRoute('/')}>Home</a></li>
+                <li><a href="" onClick={() => this.getRoute('/hunting')}>Hunting</a></li>
+                <li><a href="" onClick={() => this.getRoute('/about')}>About</a></li>
+                <li><a href="" onClick={() => this.getRoute('/login')}>Log In</a></li>
 
             </ul>
 

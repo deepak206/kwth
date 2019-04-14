@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
 import '../style/css.css';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Faqs = () => {
     return (
         <section className="wrapper style3">
@@ -53,14 +53,14 @@ in full.
                         No, you can hunt from anywhere in the field unless the website 
 states otherwise. You can use layout blinds if you want, or hunt from 
 ditch lines, 
-                        or even use the field's natural cover.<br/><br/> Go to the <a href="#property" className="scrolly">details</a> page for each property to learn more!
+                        or even use the field's natural cover.<br/><br/> Go to the <AnchorLink href="#property" className="scrolly">details</AnchorLink> page for each property to learn more!
                     </p>
                 </header>
                     <br/>
                 <header>
                     <h4>How many hunters can fit into a blind?</h4>
                     <p>
-                        Go to the <a href="#property" className="scrolly">details</a> page for information on the maximum number of hunters allowed. We base the max 
+                        Go to the <AnchorLink href="#property" className="scrolly">details</AnchorLink> page for information on the maximum number of hunters allowed. We base the max 
                         number of hunters off of the size of the blind.
                     </p>
                 </header>
@@ -74,7 +74,7 @@ You can invite other members to hunt with you OR hunt all by yourself.</p>
                 <header>
                     <h4>How many people can I hunt with?</h4>
                     <p>
-                        All of our properties have a Max Number of Hunters Allowed. You can visit the <a href="#property" className="scrolly">details</a> page of each 
+                        All of our properties have a Max Number of Hunters Allowed. You can visit the <AnchorLink href="#property" className="scrolly">details</AnchorLink> page of each 
                         property to see specifics about that field.
                     </p>
                 </header>
@@ -101,7 +101,7 @@ Conditions
 
                     2. The number of people in the blind (regardless if they are 
 shooting or not) must NOT exceed the limit set for that field. See 
-                    the <a href="#property" className="scrolly">details</a> page for more information.<br/><br/>
+                    the <AnchorLink href="#property" className="scrolly">details</AnchorLink> page for more information.<br/><br/>
 
                     Contact Know Where to Hunt Support to make necessary arrangements.
                     </p>

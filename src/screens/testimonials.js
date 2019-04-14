@@ -4,19 +4,23 @@ import '../style/camogreen.css';
 import Header from '../components/header';
 import ClosingStatement from '../components/closingStatement';
 import Footer from '../components/footer';
+import history from '../history';
 
 class Testimonials extends Component {
-    
+    getRoute = (route) => {
+        history.push(route);
+	}
+	
     render() {
         return(
-            <div id="page-wrapper">
+            <Fragment>
                 <Header/>
                 <section id="banner2"></section>
 				<section id="testimonials" className="wrapper style7">
 					<div className="inner">
 						<div className="toTopContainer">
-                        <a href="/about/">
-                        <img src={require('../../assets/back.png')} className="toTop"/></a>
+                        <a href="" onClick={() => this.getRoute('/about')}>
+                        <img src={require('../assets/back.png')} className="toTop"/></a>
                         </div>
 						<header>
 							<h2 className="tac"><u>Testimonials</u></h2>
@@ -483,7 +487,7 @@ birds off my fields. These guys did their best and my crops survived the
 				</section>
                 <ClosingStatement />
                 <Footer />
-            </div>
+            </Fragment>
         );
     }
 }

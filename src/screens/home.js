@@ -13,7 +13,7 @@ class Home extends Component {
     
     render() {
         return(
-            <div id="page-wrapper">
+            <Fragment>
                 <Header/>
                 <Banner/>
                 <WhyShouldIBecomeAMember/>
@@ -21,7 +21,7 @@ class Home extends Component {
                 <WhatMakesUsDifferent />
                 <ClosingStatement />
                 <Footer />
-            </div>
+            </Fragment>
         );
     }
 }

@@ -1,11 +1,17 @@
 import React, { Component, Fragment } from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
+import history from '../history';
+
 
 class Gallery extends Component {
     state = {
         galleryOverlay: false,
         photoId: ''
+    }
+
+    getRoute = (route) => {
+        history.push(route);
     }
 
     toggleOverlay = (id) => {
@@ -53,7 +59,7 @@ class Gallery extends Component {
                 <section className="wrapper">
 					<div className="inner">
 						<div id="property" className="toTopContainer">
-                            <a href="URL/about/">
+                            <a href='' onClick={() => this.getRoute('/about')} >
                             <img src={require('../assets/back.png')} className="toTop" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth' })}/>
                             </a>
                         </div>

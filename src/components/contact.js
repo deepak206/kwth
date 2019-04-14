@@ -2,6 +2,11 @@ import React from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
 import '../style/css.css';
+import history from '../history';
+
+const getRoute = (route) => {
+    history.push(route);
+}
 
 const Contact = () => {
     return (
@@ -27,7 +32,7 @@ const Contact = () => {
                         <div className="12u">
                             <div className="spacer50"></div>
                             <ul className="actions tac">
-                                <li><a href="/contact" className="button big">Contact Form</a></li>
+                                <li><a href="" onClick={() => getRoute('/contact')} className="button big">Contact Form</a></li>
                             </ul>
                             <div className="spacer30"></div>
                         </div>

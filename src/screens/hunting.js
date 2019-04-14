@@ -1,11 +1,18 @@
 import React, { Component, Fragment } from 'react';
-import '../style/index.css';
-import '../style/camogreen.css';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import HuntingSection from '../components/huntingSection';
+import ClosingStatementAbout from '../components/closingStatementAbout';
 
 class Hunting extends Component {
     render() {
         return(
-            <div/>
+            <Fragment>
+                <Header/>
+                <HuntingSection/>
+                <ClosingStatementAbout/> 
+                <Footer />
+            </Fragment>
         );
     }
 }

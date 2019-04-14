@@ -4,19 +4,23 @@ import '../style/camogreen.css';
 import Header from '../components/header';
 import ClosingStatement from '../components/closingStatement';
 import Footer from '../components/footer';
+import history from '../history';
 
 class WhyBecomeMember extends Component {
-    
+	getRoute = (route) => {
+        history.push(route);
+	}
+	
     render() {
         return(
-            <div id="page-wrapper">
+            <Fragment>
                 <Header/>
                 <Fragment>
                 <section id="banner2"></section>
                 <section id="testimonials" class="wrapper style7">
 					<div class="inner">
-						<div class="toTopContainer"><a href="/about/">
-                        <img src={require('../../assets/back.png')} class="toTop"/></a>
+						<div class="toTopContainer"><a href="" onClick={() => this.getRoute('/about')}>
+                        <img src={require('../assets/back.png')} class="toTop"/></a>
                         </div>
 						<header>
 							<h2 class="tac"><u>Why Should I Become a Member</u></h2>
@@ -140,7 +144,7 @@ between the parking spot and the blind.
                 </Fragment>
                 <ClosingStatement />
                 <Footer />
-            </div>
+            </Fragment>
         );
     }
 }

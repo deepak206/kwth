@@ -17,7 +17,7 @@ import ClosingStatementAbout from '../components/closingStatementAbout';
 class About extends Component {
     render() {
         return(
-                <div id="page-wrapper" ref="main">
+                <Fragment>
                     <Header/>
                     <ButtonMenu />
                     <Properties/>
@@ -30,7 +30,7 @@ class About extends Component {
                     <LegalStuff/>
                     <ClosingStatementAbout/> 
                     <Footer />
-                </div>
+                </Fragment>
         );
     }
 }

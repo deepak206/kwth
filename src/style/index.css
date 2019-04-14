@@ -1,4 +1,4 @@
-/* @import url(font-awesome.min.css); */
+@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
@@ -9,10 +9,10 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
-	abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, 
-	strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
-	caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, 
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+	abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+	strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+	caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
 	footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -425,7 +425,7 @@
 		.hideMeDesktop {display:block;}
 	}
 
-	
+
 /* Basic */
 
 	@-ms-viewport {width: device-width;}
@@ -523,7 +523,7 @@
 	.spacerFloat40 {height:40px; float:left; width:100%;}
 	.spacerFloat50 {height:50px; float:left; width:100%;}
 	.spacerFloat100 {height:100px; float:left; width:100%;}
-	
+
 	.textSml {cursor:pointer; font-size:12px; text-decoration:underline;}
 	.textReg {font-size:14px;}
 	.textLrg {font-size:20px;}
@@ -542,7 +542,7 @@
 	.mapHeaderRow {width:100%; height:30px; font-weight:bold; font-size:14px;}
 	.mapFooterRow {width:100%; height:30px; margin-top:10px;}
 	.mapRow {width:100%; height:20px;}
-	
+
 	.fl {float: left}
 	.fr {float: right}
 
@@ -554,14 +554,14 @@
 
 	.textMini {font-size:9px; line-height:12px;}
 	.textSmall {font-size:11px;}
-	
+
 	#searchbox {display:none; text-align:right;}
 
-	#overlay, #overlay1, #overlay2, #overlay3, #overlay4, 
-	#overlay5, #overlay6, #overlay7, #overlay8, #overlay9, 
-	#overlay10, #overlay11, #overlay12, #overlay13, 
-	#overlay14, #overlay15, #overlay16, #overlay17, 
-	#overlay18, #overlay19, #overlay20, #overlay-photo, 
+	#overlay, #overlay1, #overlay2, #overlay3, #overlay4,
+	#overlay5, #overlay6, #overlay7, #overlay8, #overlay9,
+	#overlay10, #overlay11, #overlay12, #overlay13,
+	#overlay14, #overlay15, #overlay16, #overlay17,
+	#overlay18, #overlay19, #overlay20, #overlay-photo,
 	#overlayProcess, #overlayDuck, #overlayGoose, #overlayJoin, #overlayGuest {
 		 position: fixed;
 		 /* display: none; */
@@ -621,17 +621,17 @@
 
 	header.major {margin: 0 0 3.5em 0; text-align:center;}
 
-	header.major h2, 
-	header.major h3, 
-	header.major h4, 
-	header.major h5, 
+	header.major h2,
+	header.major h3,
+	header.major h4,
+	header.major h5,
 	header.major h6 {border-bottom: solid 2px #fff; display: inline-block; padding-bottom: 1em; position: relative;}
 
 
-	header.major h2:after, 
-	header.major h3:after, 
-	header.major h4:after, 
-	header.major h5:after, 
+	header.major h2:after,
+	header.major h3:after,
+	header.major h4:after,
+	header.major h5:after,
 	header.major h6:after {content: ''; display: block; height: 1px;}
 
 	header.major p {color: #fff; top: 0;}
@@ -1258,23 +1258,23 @@
 		.wrapper.alt {padding: 0;}
 
 	.wrapper.style1 {
-		background-color: #161616; 
+		background-color: #161616;
 		background-image: url("../assets/bgDucks001.png");
-		-ms-background-size: cover; 
-		-o-background-size: cover; 
-		-moz-background-size: cover; 
-		-webkit-background-size: cover; 
-		background-size: cover; 
-		background-repeat: none; 
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-repeat: none;
 		color: #fff;
 	}
 
 	.wrapper.style1 strong, .wrapper.style1 b {color: #fff;}
 
-	.wrapper.style1 h2, 
-	.wrapper.style1 h3, 
-	.wrapper.style1 h4, 
-	.wrapper.style1 h5, 
+	.wrapper.style1 h2,
+	.wrapper.style1 h3,
+	.wrapper.style1 h4,
+	.wrapper.style1 h5,
 	.wrapper.style1 h6 {color: #fff;}
 
 	.wrapper.style1 hr {border-color: rgba(0, 0, 0, 0.125);}
@@ -1282,10 +1282,10 @@
 	.wrapper.style1 code {background: rgba(255, 255, 255, 0.075);}
 	.wrapper.style1 header p {color: #fff;}
 
-	.wrapper.style1 header.major h2, 
-	.wrapper.style1 header.major h3, 
-	.wrapper.style1 header.major h4, 
-	.wrapper.style1 header.major h5, 
+	.wrapper.style1 header.major h2,
+	.wrapper.style1 header.major h3,
+	.wrapper.style1 header.major h4,
+	.wrapper.style1 header.major h5,
 	.wrapper.style1 header.major h6 {border-bottom: solid 2px #fff;}
 
 	.wrapper.style1 header.major p {color: #fff;}
@@ -1348,7 +1348,7 @@
 	.wrapper.style2 {background-color: #1f1f1f;}
 
 	.wrapper.style2 {
-		background-color: transparent; 
+		background-color: transparent;
 		background-image: url('../assets/bgCamo002C.png');
 		background-repeat: repeat-y;
 		color: #fff;
@@ -1357,27 +1357,27 @@
 	}
 
 	.wrapper.style3 {
-		background-color: transparent; 
+		background-color: transparent;
 		background-image: url("../assets/bgCamo003C.png");
-		background-repeat: repeat-y; 
+		background-repeat: repeat-y;
 		color: #fff;
 		border-top: solid 5px #000;
 		border-bottom: solid 5px #000;
 	}
 
 	.wrapper.style4 {
-		background-color: transparent; 
+		background-color: transparent;
 		background-image: url("../assets/bgCamo004C.png");
-		background-repeat: repeat-y; 
+		background-repeat: repeat-y;
 		color: #fff;
 		border-top: solid 5px #000;
 		border-bottom: solid 5px #000;
 	}
 
 	.wrapper.style5 {
-		background-color: transparent; 
+		background-color: transparent;
 		background-image: url("../assets/bgCamo005C.png");
-		background-repeat: repeat-y; 
+		background-repeat: repeat-y;
 		color: #fff;
 		border-top: solid 5px #000;
 		border-bottom: solid 5px #000;
@@ -1393,9 +1393,9 @@
 	}
 
 	.wrapper.style7 {
-		background-color: transparent; 
+		background-color: transparent;
 		background-image: url("../assets/bgCamo007C.png");
-		background-repeat: repeat-y; 
+		background-repeat: repeat-y;
 		color: #fff;
 		border-top: solid 5px #000;
 		border-bottom: solid 5px #000;
@@ -1409,10 +1409,10 @@
 	.wrapper.style3 code {background: rgba(255, 255, 255, 0.075);}
 	.wrapper.style3 header p {color: #fff;}
 
-	.wrapper.style3 header.major h2, 
-	.wrapper.style3 header.major h3, 
-	.wrapper.style3 header.major h4, 
-	.wrapper.style3 header.major h5, 
+	.wrapper.style3 header.major h2,
+	.wrapper.style3 header.major h3,
+	.wrapper.style3 header.major h4,
+	.wrapper.style3 header.major h5,
 	.wrapper.style3 header.major h6 {border-bottom: solid 2px #fff; display: inline-block; padding-bottom: 1em; position: relative;}
 
 	.wrapper.style3 header.major p {color: #fff;}
@@ -1502,7 +1502,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #161616;
+		background: #ffffff;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -1525,17 +1525,17 @@
 		}
 
 	#menu .close {
-		/* background-image: url("images/close.svg");  */
-		background-position: 4.85em 1em; 
-		background-repeat: no-repeat; 
-		border: 0; 
-		cursor: pointer; 
-		display: block; 
-		height: 3em; 
-		position: absolute; 
-		right: 0; 
-		top: 0; 
-		vertical-align: middle; 
+		background-image: url("../assets/close.svg");
+		background-position: 4.85em 1em;
+		background-repeat: no-repeat;
+		border: 0;
+		cursor: pointer;
+		display: block;
+		height: 3em;
+		position: absolute;
+		right: 0;
+		top: 0;
+		vertical-align: middle;
 		width: 7em;
 	}
 
@@ -1585,7 +1585,7 @@
 	#header nav > ul > li > a.menuToggle {outline: 0; position: relative;}
 
 	#header nav > ul > li > a.menuToggle:after {
-		/* background-image: url("images/bars.svg"); */
+		background-image: url("../assets/bars.svg");
 		background-position: right center;
 		background-repeat: no-repeat;
 		content: '';
@@ -1703,7 +1703,7 @@
 	}
 
 	#banner .more:after {
-		/* background-image: url("images/arrow.svg"); */
+		background-image: url("../assets/arrow.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -1753,6 +1753,20 @@
 			#banner .more {display: none;}
 		}
 
+		#banner .fade-out {
+			-webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+visibility: hidden;
+		}
+
+			#banner .fade-in {
+				opacity: 1;
+				visibility: visible; 
+			}
+
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
 		-webkit-transform: scale(0.95);
@@ -1794,6 +1808,7 @@
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
+		background-image: url("../assets/banner.jpg");
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/banner.jpg");
@@ -1843,7 +1858,7 @@
 		@media screen and (max-width: 480px) {
 
 			.wrapper.style2 {
-				background-color: transparent; 
+				background-color: transparent;
 				background-image: url("../assets/bgCamo002-sml.png");
 				background-repeat: repeat-y;
 				color: #fff;
@@ -1852,27 +1867,27 @@
 			}
 
 			.wrapper.style3 {
-				background-color: transparent; 
+				background-color: transparent;
 				background-image: url("../assets/bgCamo003-sml.png");
-				background-repeat: repeat-y; 
+				background-repeat: repeat-y;
 				color: #fff;
 				border-top: solid 5px #000;
 				border-bottom: solid 5px #000;
 			}
 
 			.wrapper.style4 {
-				background-color: transparent; 
+				background-color: transparent;
 				background-image: url("../assets/bgCamo004-sml.png");
-				background-repeat: repeat-y; 
+				background-repeat: repeat-y;
 				color: #fff;
 				border-top: solid 5px #000;
 				border-bottom: solid 5px #000;
 			}
 
 			.wrapper.style5 {
-				background-color: transparent; 
+				background-color: transparent;
 				background-image: url("../assets/bgCamo005-sml.png");
-				background-repeat: repeat-y; 
+				background-repeat: repeat-y;
 				color: #fff;
 				border-top: solid 5px #000;
 				border-bottom: solid 5px #000;
@@ -1888,9 +1903,9 @@
 			}
 
 			.wrapper.style7 {
-				background-color: transparent; 
+				background-color: transparent;
 				background-image: url("../assets/bgCamo007-sml.png");
-				background-repeat: repeat-y; 
+				background-repeat: repeat-y;
 				color: #fff;
 				border-top: solid 5px #000;
 				border-bottom: solid 5px #000;
@@ -1940,12 +1955,13 @@
 		}
 
 /* ---------------------------------------------------------- Landing ---------------------------------------------------------- */
-	
+
 	#page-wrapper {
+		background-image: url("../assets/bg.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
+		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png"); */
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1958,9 +1974,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
+		background-image: url("../assets/bg-sml.png");
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg-sml.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg-sml.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg-sml.png");
+		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg-sml.png"); */
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg-sml.png");
 		background-position: center center;
 		background-repeat: no-repeat;

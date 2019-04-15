@@ -1502,7 +1502,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #161616;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -1753,7 +1753,7 @@
 			#banner .more {display: none;}
 		}
 
-		#banner .fade-out {
+		/* #banner .fade-out {
 			-webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1765,7 +1765,7 @@ visibility: hidden;
 			#banner .fade-in {
 				opacity: 1;
 				visibility: visible; 
-			}
+			} */
 
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
@@ -1956,7 +1956,7 @@ visibility: hidden;
 
 /* ---------------------------------------------------------- Landing ---------------------------------------------------------- */
 
-	#page-wrapper {
+body.landing #page-wrapper {
 		background-image: url("../assets/bg.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/bg.png");
@@ -1969,7 +1969,7 @@ visibility: hidden;
 		padding-top: 0;
 	}
 
-	#footer {background-color: rgba(31, 31, 31, 0.9);}
+	body.landing #footer {background-color: rgba(31, 31, 31, 0.9);}
 	body.is-mobile.landing #page-wrapper {background: none;}
 
 	body.is-mobile.landing #banner,

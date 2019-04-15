@@ -11,7 +11,7 @@ class Header extends Component {
 
     toggleMenu = (event) => {
         event.preventDefault();
-        
+        document.body.classList.toggle('is-menu-visible');
         this.setState({visible: !this.state.visible})
     }
 
@@ -49,12 +49,12 @@ class Header extends Component {
             <nav id="nav">
 			<ul>
 				<li className="special">
-					<a href="#menu" className="menuToggle" onClick={(event) => this.toggleMenu(event)}><span>Menu</span></a>
+					<a href="" className="menuToggle" onClick={(event) => this.toggleMenu(event)}><span>Menu</span></a>
 					
 				</li>
 			</ul>
 		</nav>
-        {this.state.visible && <div id="menu">
+        {/* {this.state.visible && <div id="menu">
             <ul>
                 <li><a href="" onClick={() => this.getRoute('/')}>Home</a></li>
                 <li><a href="" onClick={() => this.getRoute('/hunting')}>Hunting</a></li>
@@ -63,9 +63,9 @@ class Header extends Component {
 
             </ul>
 
-            <a href="#menu" className="close" onClick={(event) => this.toggleMenu(event)}></a>
+            <a href="" className="close" onClick={(event) => this.toggleMenu(event)}></a>
         </div>
-        }
+        } */}
         </header>
     )}
 };

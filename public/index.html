@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <meta charset="utf-8" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="manifest" href="../src/style/camogreen.css" />
     <link rel="manifest" href="../src/style/css.css" />
     <link rel="manifest" href="../src/style/index.css" />
@@ -8,7 +10,24 @@
 
     <title>Know Where To Hunt | Guided Waterfowl Hunts | Places to Hunt | Mount Vernon, WA</title>
   </head>
-  <body class="landing">
+  <body class="landing is-loading">
     <div id="page-wrapper" ></div>
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li><li>
+          <a href='/hunting'>Hunting</a>
+        </li><li><a href='/about'>About</a>
+        </li><li><a href='/login'>Log In</a>
+        </li></ul>
+        <a href="" class="close"></a>
+      </div>
+      <script>
+      $(".close").click(function (event) {
+        event.preventDefault();
+          $("body").removeClass("is-menu-visible");
+
+      });</script>
   </body>
 </html>

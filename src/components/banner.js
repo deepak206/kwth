@@ -7,17 +7,11 @@ class Banner extends Component {
     state = {
         visible:false
      }
-
-     componentDidMount() {
-         setTimeout(() => this.setState({
-             visible:true
-          }), 1000);
-    }
     
 
     render() {
     return (
-        <section id="banner" className={this.state.visible ? 'fade-in': 'fade-out'} >
+        <section id="banner" >
             <div className="inner">
                 <img src={require('../assets/logo.png')} className='logo' title="Know Where to Hunt" alt="Know Where to Hunt"/>
                 <p><br />Connecting Responsible Hunters to Prime Hunting Land<br /></p>

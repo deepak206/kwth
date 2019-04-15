@@ -10,7 +10,12 @@ import ClosingStatement from '../components/closingStatement';
 import Footer from '../components/footer';
 
 class Home extends Component {
-    
+    componentDidMount() {
+        setTimeout(this.removeClass, 100);
+    }
+    removeClass = () => {
+        document.body.classList.remove('is-loading');
+    }
     render() {
         return(
             <Fragment>

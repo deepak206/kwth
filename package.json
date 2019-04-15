@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "google-maps-react": "^2.0.2",
     "install": "^0.12.2",
     "jquery": "^3.4.0",

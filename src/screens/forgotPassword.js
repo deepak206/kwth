@@ -11,10 +11,13 @@ class ForgotPassword extends Component {
     render() {
         return(
             <Fragment>
+                <div id="page-wrapper">
                 <Header/>
                 <ForgotPasswordForm/>
                 <ClosingStatement/>
+                </div>
                 <Footer/>
+                
             </Fragment>
         );
     }

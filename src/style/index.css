@@ -1543,7 +1543,7 @@
 			#menu {padding: 3em 1.5em;}
 		}
 
-	body.is-menu-visible #page-wrapper {opacity: 0.35;}
+	body.is-menu-visible #page-wrapper {opacity: 0.35}
 	body.is-menu-visible #page-wrapper:before {display: block;}
 
 	body.is-menu-visible #menu {

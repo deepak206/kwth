@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 
 import ClosingStatementAbout from '../components/closingStatementAbout';
 import history from '../history';
+import { Link } from 'react-router-dom';
 
 const getRoute = (route) => {
     history.push(route);

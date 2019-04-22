@@ -10,6 +10,7 @@ class Contact extends Component {
     render() {
         return(
             <Fragment>
+				<div id="page-wrapper">
                 <Header/>
                 <Fragment>
                 <section id="banner2"></section>
@@ -56,6 +57,7 @@ class Contact extends Component {
 				</section>
                 </Fragment>
                 <ClosingStatement />
+				</div>
                 <Footer />
             </Fragment>
         );

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import '../style/index.css';
 import '../style/camogreen.css';
 import history from '../history';
-
+import { Link } from 'react-router-dom';
 
 class Gallery extends Component {
     state = {
@@ -38,7 +38,7 @@ class Gallery extends Component {
     
                                 <div className="2u 12u(xsmall)">&nbsp;</div>
                                 <div id="photoStage" className="8u 12u(xsmall)">
-                                    <img src={require('../assets/gallery/'+this.state.photoId+'.jpg')}/>
+                                    <img src={require('../assets/gallery/'+this.state.photoId+'.jpg')} alt=""/>
                                 </div>
                                 <div className="2u 12u$(xsmall)">&nbsp;</div>
     
@@ -60,7 +60,7 @@ class Gallery extends Component {
 					<div className="inner">
 						<div id="property" className="toTopContainer">
                             <a href='' onClick={() => this.getRoute('/about')} >
-                            <img src={require('../assets/back.png')} className="toTop" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth' })}/>
+                            <img src={require('../assets/back.png')} className="toTop" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth' })} alt=""/>
                             </a>
                         </div>
 						<header>

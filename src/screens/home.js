@@ -19,12 +19,14 @@ class Home extends Component {
     render() {
         return(
             <Fragment>
+                <div id="page-wrapper">
                 <Header/>
                 <Banner/>
                 <WhyShouldIBecomeAMember/>
                 <SnowGeeseAndDucks/>
                 <WhatMakesUsDifferent />
                 <ClosingStatement />
+                </div>
                 <Footer />
             </Fragment>
         );

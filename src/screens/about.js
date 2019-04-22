@@ -18,6 +18,7 @@ class About extends Component {
     render() {
         return(
                 <Fragment>
+                    <div id="page-wrapper">
                     <Header/>
                     <ButtonMenu />
                     <Properties/>
@@ -30,6 +31,7 @@ class About extends Component {
                     <LegalStuff/>
                     <ClosingStatementAbout/> 
                     <Footer />
+                    </div>
                 </Fragment>
         );
     }
